@@ -1,0 +1,19 @@
+{
+  "name": "xoi-technical-assessment",
+  "version": "1.0.0",
+  "description": "Xoi Technical Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "@types/cypress": "^0.1.6",
+    "@types/node": "^22.13.4",
+    "cypress": "^14.0.3",
+    "typescript": "^5.7.3"
+  }
+}
